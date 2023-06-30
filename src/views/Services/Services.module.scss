@@ -1,0 +1,114 @@
+.wrapper {
+    width: 100%;
+    min-height: 750px;
+    background-image: url('../../assets/images/bg/bg-one.png');
+    background-size: cover;
+    padding: 70px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .title {
+      text-align: center;
+      font-size: 60px;
+      font-weight: 400;
+      color: #fdfdfd;
+    }
+
+    .subtext {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      img:first-child {
+        width: 200px;
+      }
+
+      img:last-child {
+        position: absolute;
+        bottom: -80px;
+      }
+    }
+
+    .container {
+      color: #fdfdfd;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+      width: 70%;
+      margin: 50px auto;
+
+      .item {
+        font-size: 25px;
+        padding: 10px 30px;
+        border-radius: 30px;
+        border: 2px solid #dedede;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #69da27;
+            color: #141414;
+        }
+      }
+
+    }
+
+    .container-two {
+      width: 80%;
+      position: relative;
+    
+      .title-two {
+        color: #ffffff;
+        font-size: 60px;
+        
+        margin: 0 auto;
+      }
+  
+      .description {
+        color: #ffffff;
+        font-size: 24px;
+      }
+
+      .btn {
+        background-size: cover;
+        width: 150px;
+        height: 100px;
+        background-color: transparent;
+        border: none;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        color: #80e825;
+        padding: 10px;
+        margin: 20px 100px 0px auto;
+        
+        img {
+            position: absolute;
+        }
+
+        .arrow {
+            position: absolute;
+            top: -30px;
+            left: -50px;
+        }
+
+        
+      }
+
+      .line {
+        position: absolute;
+        bottom: 20px;
+        width: calc(100% - 300px);
+      }
+    }
+}

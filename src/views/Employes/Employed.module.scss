@@ -1,0 +1,55 @@
+.wrapper {
+    width: 100%;
+    min-height: 750px;
+    background-image: url('../../assets/images/bg/bg-one.png');
+    background-size: cover;
+    padding: 70px 0;
+    position: relative;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .right {
+        margin-top: auto;
+    }
+
+    .left {
+      margin-bottom: auto;
+    }
+
+    .right,
+    .left {
+      width: 300px;
+
+      .data {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+            width: 50px;
+        }
+
+        color: #b3ed20;
+        font-size: 30px;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .arrow {
+      position: absolute;
+      left: 50px;
+      bottom: 100px;
+
+      .line {
+        width: 50px;
+        position: absolute;
+        right: -40px;
+        top: 20px;
+      }
+    }
+}

@@ -1,0 +1,73 @@
+.wrapper {
+  width: 100%;
+  min-height: 750px;
+  background-image: url('../../assets/images/bg/bg-one.png');
+  background-size: cover;
+  padding: 70px 0;
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+
+  .title {
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 400;
+  }
+
+  .target {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 10px;
+    
+    
+
+    button {
+      padding: 5px 10px;
+      font-size: 20px;
+      background: transparent;
+      color: #ffffff;
+      border: 2px solid #ffffff;
+      border-radius: 20px;
+      cursor: pointer;
+
+      &.active {
+        background-color: #85ec25;
+        color: #080808;
+      }
+    }
+  }
+
+  .container {
+    display: flex;
+    margin-top: 90px;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 20px;
+
+    .item {
+      max-width: 300px;
+      position: relative;
+
+      img {
+        position: relative;
+        width: 100%;
+      }
+
+      span {
+        color: #85ec25;
+        font-weight: 600;
+        font-size: 20px;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+      }
+    }
+  }
+}

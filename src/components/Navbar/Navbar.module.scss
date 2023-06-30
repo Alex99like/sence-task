@@ -10,6 +10,7 @@
   //justify-content: space-between;
   backdrop-filter: blur(20px);
   background-color: #ffffff0a;
+  z-index: 1000;
 
   .logo {
     width: 100%;
@@ -26,6 +27,9 @@
       border: 1px solid #fff;
       border-radius: 20px;
       transition: .4s all;
+      @media (max-width: 760px) {
+        display: none;
+      }
 
       &:hover {
         background-color: #30ff33ff;

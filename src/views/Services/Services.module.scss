@@ -42,6 +42,14 @@
       justify-content: space-between;
       width: 70%;
       margin: 50px auto;
+      
+      @media (max-width: 580px) {
+        width: 90%;
+      }
+
+      @media (max-width: 420px) {
+        gap: 10px;
+      }
 
       .item {
         font-size: 25px;
@@ -52,6 +60,20 @@
         align-items: center;
         gap: 20px;
         cursor: pointer;
+
+        @media (max-width: 580px) {
+          font-size: 18px;
+          padding: 5px 20px;
+        }
+
+        @media (max-width: 420px) {
+          font-size: 16px;
+          padding: 5px 20px;
+
+          img {
+            width: 30px;
+          }
+        }
 
         &:hover {
             background-color: #69da27;
@@ -70,11 +92,19 @@
         font-size: 60px;
         
         margin: 0 auto;
+
+        @media (max-width: 580px) {
+          font-size: 28px;
+        }
       }
   
       .description {
         color: #ffffff;
         font-size: 24px;
+
+        @media (max-width: 580px) {
+          font-size: 18px;
+        }
       }
 
       .btn {

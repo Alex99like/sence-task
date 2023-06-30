@@ -1,6 +1,5 @@
-import { useEffect, useState } from 'react'
+
 import styles from './Home.module.scss'
-import { TypingText } from '../../utils/tickText'
 
 const LogoImage = 'https://static.tildacdn.com/tild6666-3431-4265-b935-376464393766/Group_18.svg'
 const btnBG = 'https://static.tildacdn.com/tild3662-6133-4262-b963-333639643037/main_button_green.svg'
@@ -10,12 +9,12 @@ const ItemOne = 'https://static.tildacdn.com/tild3161-6633-4134-a638-36393132666
 const ItemTwo = 'https://static.tildacdn.com/tild6238-3432-4564-b265-306565616236/_5_.svg'
 const ItemThree = 'https://static.tildacdn.com/tild6630-3132-4137-b830-356465383431/27_.svg'
 
-const texts = [
-    'делаем крутой маркетинг',
-    'smm который продает',
-    'бутик агенство полного цикал',
-    'запускаем таргет'
-]
+// const texts = [
+//     'делаем крутой маркетинг',
+//     'smm который продает',
+//     'бутик агенство полного цикал',
+//     'запускаем таргет'
+// ]
 
 
 

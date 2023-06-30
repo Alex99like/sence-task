@@ -29,6 +29,7 @@ export const TypingText = ({ texts }: { texts: string[] }) => {
       if (direction) removeChar()
       else addChar()
     }, 100)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [text])
 
   return text
